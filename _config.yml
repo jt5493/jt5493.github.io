@@ -1,0 +1,20 @@
+# Site settings
+author: Jordon Terry
+title: 
+header-img: img/home-bg.png
+email: jt5493@hotmail.com
+copyright_name: Jordon Terry
+description: > # this means to ignore newlines until "baseurl:"
+  
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  jt5493
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
